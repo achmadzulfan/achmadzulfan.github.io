@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="img/ok.jpg" alt="ok" style="width:100%;">
+  <div class="content">
+    <h1>Welcome to My Website</h1>
+    <p>Website yang berisi tentang biografi saya</p>
+  </div>
+</div>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+</head>
+<body>
+
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Nama')">Nama</button>
+  <button class="tablinks" onclick="openCity(event, 'TTL')">TTL</button>
+  <button class="tablinks" onclick="openCity(event, 'Pendidikan')">Pendidikan</button>
+  <button class="tablinks" onclick="openCity(event, 'Hobi')">Hobi</button>
+</div>
+
+<div id="Nama" class="tabcontent">
+  <h3>Nama: Achmad Zulfan Almahdy</h3>
+  <p>Teatpi teman-teman saya dan orang lain sering memanggil saya zulfan atau panjul. Nama saya memiliki arti seseorang pemimpin suci yang memiliki kedudukan tertinggi. Saat pertama kali mendengar arti nama itu saat kecil saya sungguh kagum, tetapi saat setelah dewas saya mengerti bagaimana arti nama itu berguna dan mulai lelah dengannya. Namun nama itu juga yang membuat saya menjadi lebih bersemangat dan membuat saya kembali optimis dalam mewujudkan mimpi-mimpi saya ketika saya dalam keadaan pesimis dengan diri saya.</p>
+</div>
+
+<div id="TTL" class="tabcontent">
+  <h3>Tempat dan Tanggal Lahir</h3>
+  <p>Saya lahir di Bogor tanggal 06 April 2001.Saya pun besar di kota bogor. Kota yang sering di panggil kota hujan wlau hujan yang datang tak menentu adanya, dan kota beriman yang masih banyak sampah di setiap jengkalnya. Dibalik itu semua di kota ini tersimpan banyak cerita yang menyenangkan dan sedih yang saya alami. Kota ini ada selalu yang membuat saya nyaman walau banyak juga hal yang membuat saya tidak nyaman tetapi kenyamanan saya terhadap kota bogor masih lebih besar dibanding ketidaknyamanan kondisi yang dia buat. Tetapi sebenarnya rumah tingga saya berada di kabupaten bogor tepatnya di desa ciomas, namun karena hal itu sya menjadi tau bagaimana kondisi di kota dan kabupaten dengan perbedaan kepala pemerintahnya.</p> 
+</div>
+
+<div id="Pendidikan" class="tabcontent">
+  <h3>Pendidikan</h3>
+  <p>Saya bersekolah di SMK-SMAK Bogor Kelas 11.1, jurusan yang saya pilih adalah Kimia Analisis. Di sekolah ini saya belajar berbagai macam pelajaran walau pelajaran kimia lebih di utamakan di sekolah ini. Disini saya melakukan banyak aktivitas bersama teman saya, bisa saat di lab, di kelas, atau di luar sekolah. Sekolah ini sering memiliki berbagai macam cobaan di dalamnya, seperti tugas yang menumpuk dan lapsus praktik yang tak henti-hentinya datang dan pergi. Tetapi walau seperti itu saya sangat menyukainya dan senang berada di sekolah ini.</p>
+</div>
+
+<div id="Hobi" class="tabcontent">
+    <h3>Hobi</h3>
+    <p>Saya memiliki beberapa hobi, yaitu:
+        <ul>
+        <li>Menulis Puisi</li>
+        <li>Bermain Futsal</li>
+        <li>Membaca Novel</li>
+        <li>Bermain Game Online</li>    
+        </ul></p>
+        <img src="img/puisi.jpg" width="600px" height="400px">
+        <p>Untuk dibeberapa waktu luang saya, saya sering menulis puisi.</p>
+        <img src="img/Futsal.jpg" width="600px" height="400px">
+        <p>Saya senang bermain futsal karena dapat menyehatkan badan dan merefresh tubuh.</p>
+        <img src="img/novel.jpg" width="300px" height="300px">
+        <p>Gambar ini menunjukan salah satu novel karya tere liye yang saya sukai, yang berjudul Bumi,Bulan,Matahari, dan Bintang.</p>
+        <img src="img/Game.jpg" width="600px" height="400px">
+        <p>Saya juga senang bermain game online dan lebih sering dimainkan saat liburan.</p>
+            <p>Semua hobbi saya ini saya sering lakukan di masa-masa tertentu, apalagi dengan kesibukan sekarang di smakbo, saya mulai jarang melakukan hobbi saya. Semua hobi ini bisa saya kerjakan bersama teman atau sendiri seperti bermain futsal, saya sering bermain dengan teman saya, sedangkan seperti bermain game saya kadang bermain sendiri atau bermain denga teman saya, atau seperti membaca novel saya lakukan sendiri. Semua hobi ini selalu membuat saya senang dan dapat menghilangkan rasa penat saya di smakbo.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html> 
